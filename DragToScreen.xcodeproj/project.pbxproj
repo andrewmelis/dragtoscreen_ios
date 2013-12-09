@@ -21,6 +21,7 @@
 		28A42E5D18556DF8003E8CD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A42E3F18556DF8003E8CD4 /* UIKit.framework */; };
 		28A42E6518556DF8003E8CD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28A42E6318556DF8003E8CD4 /* InfoPlist.strings */; };
 		28A42E6718556DF9003E8CD4 /* DragToScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A42E6618556DF9003E8CD4 /* DragToScreenTests.m */; };
+		28A42E72185591BA003E8CD4 /* ExternalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A42E71185591BA003E8CD4 /* ExternalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		28A42E6218556DF8003E8CD4 /* DragToScreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragToScreenTests-Info.plist"; sourceTree = "<group>"; };
 		28A42E6418556DF8003E8CD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28A42E6618556DF9003E8CD4 /* DragToScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragToScreenTests.m; sourceTree = "<group>"; };
+		28A42E70185591BA003E8CD4 /* ExternalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalViewController.h; sourceTree = "<group>"; };
+		28A42E71185591BA003E8CD4 /* ExternalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				28A42E4B18556DF8003E8CD4 /* AppDelegate.m */,
 				28A42E5018556DF8003E8CD4 /* ViewController.h */,
 				28A42E5118556DF8003E8CD4 /* ViewController.m */,
+				28A42E70185591BA003E8CD4 /* ExternalViewController.h */,
+				28A42E71185591BA003E8CD4 /* ExternalViewController.m */,
 				28A42E5318556DF8003E8CD4 /* Images.xcassets */,
 				28A42E4218556DF8003E8CD4 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A42E5218556DF8003E8CD4 /* ViewController.m in Sources */,
+				28A42E72185591BA003E8CD4 /* ExternalViewController.m in Sources */,
 				28A42E4C18556DF8003E8CD4 /* AppDelegate.m in Sources */,
 				28A42E4818556DF8003E8CD4 /* main.m in Sources */,
 			);

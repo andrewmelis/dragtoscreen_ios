@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ExternalViewController.h"
 
 @interface ViewController : UIViewController
+
+@property UIWindow *secondWindow;
+- (IBAction)onButtonPress:(UIButton *)sender;
 
 @end
